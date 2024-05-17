@@ -1,0 +1,4 @@
+filetype:sql "insert into" (pass|passwd|password)
+
+
+https://nfsec.pl/media/4500_gdorks.txt
